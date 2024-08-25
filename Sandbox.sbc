@@ -5,12 +5,12 @@
   <SessionName>(Workshop) ModernWarfareWorldDev</SessionName>
   <SpectatorPosition>
     <Position x="96050.463858748044" y="362284.18892652361" z="-354589.85167877056" />
-    <Forward x="-0.488503039" y="-0.7000119" z="0.520910859" />
-    <Up x="0.1743861" y="-0.663269341" z="-0.7277797" />
+    <Forward x="-0.488503128" y="-0.7000119" z="0.5209108" />
+    <Up x="0.174386114" y="-0.6632694" z="-0.7277797" />
     <Orientation>
       <X>0.8716563</X>
-      <Y>-0.02589808</Y>
-      <Z>0.268048465</Z>
+      <Y>-0.0258980859</Y>
+      <Z>0.2680485</Z>
       <W>-0.409505337</W>
     </Orientation>
   </SpectatorPosition>
@@ -136,7 +136,7 @@
     <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>OFFLINE</OnlineMode>
+    <OnlineMode>FRIENDS</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -154,7 +154,7 @@
     <WeaponsEnabled>true</WeaponsEnabled>
     <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
     <ThrusterDamage>true</ThrusterDamage>
-    <CargoShipsEnabled>true</CargoShipsEnabled>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
     <EnableSpectator>false</EnableSpectator>
     <WorldSizeKm>0</WorldSizeKm>
     <RespawnShipDelete>false</RespawnShipDelete>
@@ -167,7 +167,7 @@
     <AutoSaveInMinutes>5</AutoSaveInMinutes>
     <EnableSaving>true</EnableSaving>
     <InfiniteAmmo>false</InfiniteAmmo>
-    <EnableContainerDrops>true</EnableContainerDrops>
+    <EnableContainerDrops>false</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
     <ProceduralDensity>0.35</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
@@ -177,13 +177,13 @@
     <EnableToolShake>true</EnableToolShake>
     <VoxelGeneratorVersion>4</VoxelGeneratorVersion>
     <EnableOxygen>true</EnableOxygen>
-    <EnableOxygenPressurization>true</EnableOxygenPressurization>
+    <EnableOxygenPressurization>false</EnableOxygenPressurization>
     <Enable3rdPersonView>true</Enable3rdPersonView>
-    <EnableEncounters>true</EnableEncounters>
+    <EnableEncounters>false</EnableEncounters>
     <EnableConvertToStation>true</EnableConvertToStation>
     <StationVoxelSupport>false</StationVoxelSupport>
     <EnableSunRotation>true</EnableSunRotation>
-    <EnableRespawnShips>true</EnableRespawnShips>
+    <EnableRespawnShips>false</EnableRespawnShips>
     <ScenarioEditMode>false</ScenarioEditMode>
     <Scenario>false</Scenario>
     <UpdateRespawnDictionary>false</UpdateRespawnDictionary>
@@ -197,7 +197,7 @@
     <StartInRespawnScreen>false</StartInRespawnScreen>
     <EnableVoxelDestruction>true</EnableVoxelDestruction>
     <MaxDrones>5</MaxDrones>
-    <EnableDrones>true</EnableDrones>
+    <EnableDrones>false</EnableDrones>
     <EnableWolfs>false</EnableWolfs>
     <EnableSpiders>false</EnableSpiders>
     <FloraDensityMultiplier>1</FloraDensityMultiplier>
@@ -229,7 +229,7 @@
     <VoxelPlayerDistanceThreshold>5000</VoxelPlayerDistanceThreshold>
     <VoxelGridDistanceThreshold>5000</VoxelGridDistanceThreshold>
     <VoxelAgeThreshold>24</VoxelAgeThreshold>
-    <EnableResearch>true</EnableResearch>
+    <EnableResearch>false</EnableResearch>
     <EnableGoodBotHints>true</EnableGoodBotHints>
     <OptimalSpawnDistance>900</OptimalSpawnDistance>
     <EnableAutorespawn>true</EnableAutorespawn>
@@ -280,9 +280,9 @@
     <MinimumWorldSize>0</MinimumWorldSize>
     <MaxCargoBags>100</MaxCargoBags>
     <TrashCleanerCargoBagsMaxLiveTime>30</TrashCleanerCargoBagsMaxLiveTime>
-    <ScrapEnabled>true</ScrapEnabled>
+    <ScrapEnabled>false</ScrapEnabled>
     <BroadcastControllerMaxOfflineTransmitDistance>200</BroadcastControllerMaxOfflineTransmitDistance>
-    <TemporaryContainers>true</TemporaryContainers>
+    <TemporaryContainers>false</TemporaryContainers>
   </Settings>
   <ScriptManagerData>
     <variables>
@@ -856,6 +856,7 @@ HackingDamage-False</Value>
       <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1249,6 +1250,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>0</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1338,6 +1340,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
           <RemoteAdminSettings>0</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1427,6 +1430,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>15</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1523,6 +1527,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>15</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1615,6 +1620,8 @@ HackingDamage-False</Value>
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
   </NonPlayerIdentities>
@@ -64367,4 +64374,7 @@ HackingDamage-False</Value>
     <string>Grass_old</string>
   </VicinityVoxelCache>
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>
