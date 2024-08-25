@@ -169,7 +169,7 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>false</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0.35</ProceduralDensity>
+    <ProceduralDensity>0</ProceduralDensity>
     <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
