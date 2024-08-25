@@ -1,10 +1,6 @@
 name: "Upload to Workshop"
 
-on:
-  workflow_run:
-    workflows: ["see offline and set it to public"]
-    types:
-      - completed
+on: [push, pull_request]
 
 jobs:
   upload:
