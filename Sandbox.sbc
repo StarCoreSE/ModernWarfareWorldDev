@@ -1,28 +1,28 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>1947132080000</ElapsedGameTime>
+  <ElapsedGameTime>2097066400000</ElapsedGameTime>
   <SessionName>(Workshop) ModernWarfareWorldDev</SessionName>
   <SpectatorPosition>
-    <Position x="96050.463858748044" y="362284.18892652361" z="-354589.85167877056" />
-    <Forward x="-0.488503128" y="-0.7000119" z="0.5209108" />
-    <Up x="0.174386114" y="-0.6632694" z="-0.7277797" />
+    <Position x="39563.715555204304" y="326229.16471123032" z="-346683.55653749872" />
+    <Forward x="0.7742224" y="0.25886184" z="-0.5775555" />
+    <Up x="-0.543265045" y="-0.196376041" z="-0.8162717" />
     <Orientation>
-      <X>0.8716563</X>
-      <Y>-0.0258980859</Y>
-      <Z>0.2680485</Z>
-      <W>-0.409505337</W>
+      <X>-0.271155357</X>
+      <Y>-0.3710755</Y>
+      <Z>0.7243361</Z>
+      <W>0.513921142</W>
     </Orientation>
   </SpectatorPosition>
-  <SpectatorSpeed x="27.40389" y="1" />
+  <SpectatorSpeed x="8.119672" y="1" />
   <SpectatorIsLightOn>false</SpectatorIsLightOn>
   <CameraController>Entity</CameraController>
-  <CameraEntity>137650207012409528</CameraEntity>
-  <ControlledObject>137650207012409528</ControlledObject>
+  <CameraEntity>135508782886014995</CameraEntity>
+  <ControlledObject>135508782886014995</ControlledObject>
   <Password />
   <Description>This world is a blank slate, unleash your creativity and populate it with your creations.</Description>
-  <LastSaveTime>2024-08-25T16:28:03.4596906-05:00</LastSaveTime>
-  <SpectatorDistance>22.43132</SpectatorDistance>
+  <LastSaveTime>2024-08-25T20:11:28.6619889-05:00</LastSaveTime>
+  <SpectatorDistance>2.6</SpectatorDistance>
   <WorkshopId xsi:nil="true" />
   <WorkshopId1 xsi:nil="true" />
   <CharacterToolbar>
@@ -32,8 +32,8 @@
       <Slot>
         <Index>0</Index>
         <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId Type="MyObjectBuilder_LargeMissileTurret" Subtype="APSTurret" />
         </Data>
       </Slot>
       <Slot>
@@ -47,80 +47,58 @@
         <Index>2</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
-        </Data>
-      </Slot>
-    </Slots>
-    <SlotsGamepad>
-      <Slot>
-        <Index>0</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
           <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>1</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="AngleGrinderItem" />
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>2</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
         </Data>
       </Slot>
       <Slot>
         <Index>3</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+          <DefinitionId Type="MyObjectBuilder_SmallMissileLauncher" Subtype="CatapultGunBlock" />
         </Data>
       </Slot>
       <Slot>
         <Index>4</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Assembler" Subtype="BasicAssembler" />
+          <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
         </Data>
       </Slot>
       <Slot>
         <Index>5</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_Refinery" Subtype="Blast Furnace" />
+          <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
         </Data>
       </Slot>
       <Slot>
         <Index>6</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_WindTurbine" Subtype="LargeBlockWindTurbine" />
+          <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedLargeBomb" />
         </Data>
       </Slot>
       <Slot>
         <Index>7</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_SolarPanel" Subtype="LargeBlockSolarPanel" />
+          <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedMediumBomb" />
         </Data>
       </Slot>
       <Slot>
         <Index>8</Index>
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId Type="MyObjectBuilder_LandingGear" Subtype="LargeBlockLandingGear" />
+          <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedGlideBomb" />
         </Data>
       </Slot>
-    </SlotsGamepad>
+    </Slots>
+    <SlotsGamepad />
   </CharacterToolbar>
   <ControlledEntities>
     <dictionary>
       <item>
-        <Key>137650207012409528</Key>
+        <Key>135508782886014995</Key>
         <Value>
           <ClientId>0</ClientId>
           <SerialId>0</SerialId>
@@ -136,7 +114,7 @@
     <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>FRIENDS</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -169,8 +147,6 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>false</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0</ProceduralDensity>
-    <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
     <ViewDistance>15000</ViewDistance>
@@ -750,6 +726,56 @@ HackingDamage-False</Value>
     <dictionary />
   </PlayersDeadInCryopods>
   <Mods>
+    <ModItem FriendlyName="TLBGridPoints">
+      <Name>3317527626.sbm</Name>
+      <PublishedFileId>3317527626</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="ModernWarfareGridPointsAddon">
+      <Name>3317527529.sbm</Name>
+      <PublishedFileId>3317527529</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="TLBVisualTweaks">
+      <Name>3294959339.sbm</Name>
+      <PublishedFileId>3294959339</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Text HUD API">
+      <Name>758597413.sbm</Name>
+      <PublishedFileId>758597413</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Tank Tracks over Vanilla Wheels">
+      <Name>3209008231.sbm</Name>
+      <PublishedFileId>3209008231</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Retractable Wheels 2.0.0">
+      <Name>2200258747.sbm</Name>
+      <PublishedFileId>2200258747</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="RB - Piston Pack (Small &amp; Large Grid)">
+      <Name>2369529905.sbm</Name>
+      <PublishedFileId>2369529905</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Plane Parts">
+      <Name>837058476.sbm</Name>
+      <PublishedFileId>837058476</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Plane FX">
+      <Name>3300658544.sbm</Name>
+      <PublishedFileId>3300658544</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="P.O.M -  XL Blocks [Slopes Update!]">
+      <Name>2943729620.sbm</Name>
+      <PublishedFileId>2943729620</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="ModernWarfarePlanet">
       <Name>3316456792.sbm</Name>
       <PublishedFileId>3316456792</PublishedFileId>
@@ -780,39 +806,9 @@ HackingDamage-False</Value>
       <PublishedFileId>2829589020</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Retractable Wheels 2.0.0">
-      <Name>2200258747.sbm</Name>
-      <PublishedFileId>2200258747</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surfaces">
-      <Name>800500312.sbm</Name>
-      <PublishedFileId>800500312</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Plane FX">
-      <Name>3300658544.sbm</Name>
-      <PublishedFileId>3300658544</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Build Info">
       <Name>514062285.sbm</Name>
       <PublishedFileId>514062285</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Plane Parts">
-      <Name>837058476.sbm</Name>
-      <PublishedFileId>837058476</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="RB - Piston Pack (Small &amp; Large Grid)">
-      <Name>2369529905.sbm</Name>
-      <PublishedFileId>2369529905</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks over Vanilla Wheels">
-      <Name>3209008231.sbm</Name>
-      <PublishedFileId>3209008231</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Better Wheels (adjusted collision, improved travel, dual wheels)">
@@ -820,40 +816,10 @@ HackingDamage-False</Value>
       <PublishedFileId>2271486961</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="P.O.M -  XL Blocks [Slopes Update!]">
-      <Name>2943729620.sbm</Name>
-      <PublishedFileId>2943729620</PublishedFileId>
+    <ModItem FriendlyName="Aerodynamic Control Surfaces">
+      <Name>800500312.sbm</Name>
+      <PublishedFileId>800500312</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Definition Extension API">
-      <Name>2756894170.sbm</Name>
-      <PublishedFileId>2756894170</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Builder">
-      <Name>3209005014.sbm</Name>
-      <PublishedFileId>3209005014</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Framework &amp; API">
-      <Name>3208995513.sbm</Name>
-      <PublishedFileId>3208995513</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Text HUD API">
-      <Name>758597413.sbm</Name>
-      <PublishedFileId>758597413</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surface Mod Component">
-      <Name>2831593561.sbm</Name>
-      <PublishedFileId>2831593561</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <CreativeTools />
@@ -863,15 +829,15 @@ HackingDamage-False</Value>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855895</IdentityId>
       <DisplayName>Invalid</DisplayName>
-      <CharacterEntityId>137650207012409528</CharacterEntityId>
+      <CharacterEntityId>135508782886014995</CharacterEntityId>
       <Model>Default_Astronaut</Model>
       <ColorMask x="0.997916639" y="0.322314024" z="-0.05098039" />
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-25T16:17:07.3170597-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-25T20:11:04.2769882-05:00</LastLoginTime>
       <SavedCharacters>
-        <long>137650207012409528</long>
+        <long>135508782886014995</long>
       </SavedCharacters>
-      <LastLogoutTime>2024-08-25T16:28:03.4596906-05:00</LastLogoutTime>
+      <LastLogoutTime>2024-08-25T20:11:28.6624896-05:00</LastLogoutTime>
       <RespawnShips>
         <long>93322516472217960</long>
       </RespawnShips>
@@ -888,7 +854,7 @@ HackingDamage-False</Value>
       <DisplayName>Space Pirates</DisplayName>
       <CharacterEntityId>0</CharacterEntityId>
       <BlockLimitModifier>0</BlockLimitModifier>
-      <LastLoginTime>2024-08-25T16:17:09.8005624-05:00</LastLoginTime>
+      <LastLoginTime>2024-08-25T20:11:07.1414905-05:00</LastLoginTime>
       <SavedCharacters />
       <LastLogoutTime>0001-01-01T00:00:00</LastLogoutTime>
       <RespawnShips />
@@ -996,8 +962,8 @@ HackingDamage-False</Value>
               <Slot>
                 <Index>0</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_LargeMissileTurret" Subtype="APSTurret" />
                 </Data>
               </Slot>
               <Slot>
@@ -1011,17 +977,59 @@ HackingDamage-False</Value>
                 <Index>2</Index>
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="HandDrillItem" />
+                  <DefinitionId Type="MyObjectBuilder_PhysicalGunObject" Subtype="WelderItem" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SmallMissileLauncher" Subtype="CatapultGunBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_Cockpit" Subtype="OpenCockpitLarge" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_CubeBlock" Subtype="LargeBlockArmorBlock" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedLargeBomb" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedMediumBomb" />
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId Type="MyObjectBuilder_SmallMissileLauncherReload" Subtype="MountedGlideBomb" />
                 </Data>
               </Slot>
             </Slots>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="137650207012409528">
-              <IsFirstPerson>false</IsFirstPerson>
-              <Distance>22.431320190429684</Distance>
-              <HeadAngle x="0" y="0" />
+            <CameraControllerSettings EntityId="135508782886014995">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>2.5999999046325684</Distance>
+              <HeadAngle x="-13.4315987" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
           <BuildColorSlots>
@@ -1626,38 +1634,10 @@ HackingDamage-False</Value>
     <long>144115188075855896</long>
   </NonPlayerIdentities>
   <Gps>
-    <dictionary>
-      <item>
-        <Key>144115188075855900</Key>
-        <Value>
-          <Entries />
-        </Value>
-      </item>
-      <item>
-        <Key>144115188075855895</Key>
-        <Value>
-          <Entries />
-        </Value>
-      </item>
-    </dictionary>
+    <dictionary />
   </Gps>
   <ContainerGridIds>
-    <dictionary>
-      <item>
-        <Key>76561198083962964</Key>
-        <Value />
-      </item>
-      <item>
-        <Key>76561198191207115</Key>
-        <Value />
-      </item>
-      <item>
-        <Key>76561198071098415</Key>
-        <Value>
-          <long>136412424392278055</long>
-        </Value>
-      </item>
-    </dictionary>
+    <dictionary />
   </ContainerGridIds>
   <SessionComponents>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_LocalizationSessionComponent">
@@ -1794,12 +1774,38 @@ HackingDamage-False</Value>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SectorWeatherComponent">
       <BaseSunDirection x="0.339467347" y="0.709795356" z="-0.617213368" />
-      <SunDirectionNormalized x="0.0903178453" y="0.683441341" z="-0.7243967" />
+      <SunDirectionNormalized x="-0.384542823" y="0.498967171" z="-0.7766329" />
       <WeatherPlanetData>
         <MyObjectBuilder_WeatherPlanetData>
           <PlanetId>7370438533550474062</PlanetId>
-          <NextWeather>39661</NextWeather>
-          <Weathers />
+          <NextWeather>160967</NextWeather>
+          <Weathers>
+            <MyObjectBuilder_WeatherEffect>
+              <Position>
+                <X>40181.4644039496</X>
+                <Y>326427.93975249317</Y>
+                <Z>-347145.93600681634</Z>
+              </Position>
+              <Velocity>
+                <X>-10.846890498295757</X>
+                <Y>3.1046340583644993</Y>
+                <Z>6.3376919900589277</Z>
+              </Velocity>
+              <Weather>SandStormHeavy</Weather>
+              <Radius>11788.9219</Radius>
+              <Life>53734</Life>
+              <MaxLife>109319</MaxLife>
+              <Intensity>1</Intensity>
+              <StartPoint>
+                <X>49895.578477696028</X>
+                <Y>323647.532833065</Y>
+                <Z>-352821.76199292531</Z>
+              </StartPoint>
+              <NextLightning>0</NextLightning>
+              <NextLightningCharacter>0</NextLightningCharacter>
+              <NextLightningGrid>0</NextLightningGrid>
+            </MyObjectBuilder_WeatherEffect>
+          </Weathers>
         </MyObjectBuilder_WeatherPlanetData>
       </WeatherPlanetData>
     </MyObjectBuilder_SessionComponent>
@@ -64237,7 +64243,7 @@ HackingDamage-False</Value>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AntennaSessionComponent" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_EnvironmentBotSpawningSystem">
-      <TimeSinceLastEventInMs>26866</TimeSinceLastEventInMs>
+      <TimeSinceLastEventInMs>75467</TimeSinceLastEventInMs>
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_TradingManager" />
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
@@ -64358,20 +64364,25 @@ HackingDamage-False</Value>
   <InGameTime>2081-01-01T07:00:00</InGameTime>
   <CustomSkybox />
   <RequiresDX>11</RequiresDX>
-  <VicinityModelsCache />
+  <VicinityModelsCache>
+    <string>O:\SteamLibrary\steamapps\workshop\content\244850\3307947679\Models\Cubes\MountedLargeBomb.mwm</string>
+    <string>Models\Cubes\Small\BatterySmall.mwm</string>
+    <string>O:\SteamLibrary\steamapps\workshop\content\244850\3307947679\Models\Cubes\CatapultModel.mwm</string>
+    <string>O:\SteamLibrary\steamapps\workshop\content\244850\3307947679\Models\Cubes\GuidedBombBayLauncher.mwm</string>
+    <string>O:\SteamLibrary\steamapps\workshop\content\244850\3307947679\Models\Cubes\APSTurret.mwm</string>
+  </VicinityModelsCache>
   <VicinityArmorModelsCache>
     <string>Models\Characters\Astronaut\SE_astronaut.mwm</string>
+    <string>Models\Cubes\Small\Armor\SquarePlate.mwm</string>
   </VicinityArmorModelsCache>
   <VicinityVoxelCache>
     <string>DesertRocks</string>
     <string>PertamSand</string>
-    <string>CrackedSoil</string>
-    <string>Soil</string>
-    <string>Woods_grass</string>
     <string>Stone</string>
+    <string>CrackedSoil</string>
     <string>DustyRocks3</string>
-    <string>Grass_old bare</string>
-    <string>Grass_old</string>
+    <string>Woods_grass</string>
+    <string>DustyRocks</string>
   </VicinityVoxelCache>
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
   <RemoteAdminSettings>

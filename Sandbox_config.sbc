@@ -7,7 +7,7 @@
     <AssemblerSpeedMultiplier>3</AssemblerSpeedMultiplier>
     <AssemblerEfficiencyMultiplier>3</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>3</RefinerySpeedMultiplier>
-    <OnlineMode>FRIENDS</OnlineMode>
+    <OnlineMode>OFFLINE</OnlineMode>
     <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>56</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
@@ -40,8 +40,6 @@
     <InfiniteAmmo>false</InfiniteAmmo>
     <EnableContainerDrops>false</EnableContainerDrops>
     <SpawnShipTimeMultiplier>0</SpawnShipTimeMultiplier>
-    <ProceduralDensity>0</ProceduralDensity>
-    <ProceduralSeed>0</ProceduralSeed>
     <DestructibleBlocks>true</DestructibleBlocks>
     <EnableIngameScripts>true</EnableIngameScripts>
     <ViewDistance>15000</ViewDistance>
@@ -156,6 +154,56 @@
     <TemporaryContainers>false</TemporaryContainers>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="TLBGridPoints">
+      <Name>3317527626.sbm</Name>
+      <PublishedFileId>3317527626</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="ModernWarfareGridPointsAddon">
+      <Name>3317527529.sbm</Name>
+      <PublishedFileId>3317527529</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="TLBVisualTweaks">
+      <Name>3294959339.sbm</Name>
+      <PublishedFileId>3294959339</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Text HUD API">
+      <Name>758597413.sbm</Name>
+      <PublishedFileId>758597413</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Tank Tracks over Vanilla Wheels">
+      <Name>3209008231.sbm</Name>
+      <PublishedFileId>3209008231</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Retractable Wheels 2.0.0">
+      <Name>2200258747.sbm</Name>
+      <PublishedFileId>2200258747</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="RB - Piston Pack (Small &amp; Large Grid)">
+      <Name>2369529905.sbm</Name>
+      <PublishedFileId>2369529905</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Plane Parts">
+      <Name>837058476.sbm</Name>
+      <PublishedFileId>837058476</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Plane FX">
+      <Name>3300658544.sbm</Name>
+      <PublishedFileId>3300658544</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="P.O.M -  XL Blocks [Slopes Update!]">
+      <Name>2943729620.sbm</Name>
+      <PublishedFileId>2943729620</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="ModernWarfarePlanet">
       <Name>3316456792.sbm</Name>
       <PublishedFileId>3316456792</PublishedFileId>
@@ -186,39 +234,9 @@
       <PublishedFileId>2829589020</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Retractable Wheels 2.0.0">
-      <Name>2200258747.sbm</Name>
-      <PublishedFileId>2200258747</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surfaces">
-      <Name>800500312.sbm</Name>
-      <PublishedFileId>800500312</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Plane FX">
-      <Name>3300658544.sbm</Name>
-      <PublishedFileId>3300658544</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="Build Info">
       <Name>514062285.sbm</Name>
       <PublishedFileId>514062285</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Plane Parts">
-      <Name>837058476.sbm</Name>
-      <PublishedFileId>837058476</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="RB - Piston Pack (Small &amp; Large Grid)">
-      <Name>2369529905.sbm</Name>
-      <PublishedFileId>2369529905</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks over Vanilla Wheels">
-      <Name>3209008231.sbm</Name>
-      <PublishedFileId>3209008231</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Better Wheels (adjusted collision, improved travel, dual wheels)">
@@ -226,42 +244,12 @@
       <PublishedFileId>2271486961</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="P.O.M -  XL Blocks [Slopes Update!]">
-      <Name>2943729620.sbm</Name>
-      <PublishedFileId>2943729620</PublishedFileId>
+    <ModItem FriendlyName="Aerodynamic Control Surfaces">
+      <Name>800500312.sbm</Name>
+      <PublishedFileId>800500312</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Definition Extension API">
-      <Name>2756894170.sbm</Name>
-      <PublishedFileId>2756894170</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Builder">
-      <Name>3209005014.sbm</Name>
-      <PublishedFileId>3209005014</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Framework &amp; API">
-      <Name>3208995513.sbm</Name>
-      <PublishedFileId>3208995513</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Text HUD API">
-      <Name>758597413.sbm</Name>
-      <PublishedFileId>758597413</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surface Mod Component">
-      <Name>2831593561.sbm</Name>
-      <PublishedFileId>2831593561</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <SessionName>(Workshop) ModernWarfareWorldDev</SessionName>
-  <LastSaveTime>2024-08-25T16:28:03.4596906-05:00</LastSaveTime>
+  <LastSaveTime>2024-08-25T20:11:28.6619889-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
