@@ -6,7 +6,7 @@
   <SpectatorPosition>
     <Position x="40165.955862188559" y="326652.18281937687" z="-347189.44267855788" />
     <Forward x="-0.5773503" y="-0.577350259" z="-0.577350259" />
-    <Up x="-0.4082483" y="0.8164966" z="-0.408248276" />
+    <Up x="-0.408248276" y="0.8164966" z="-0.408248246" />
     <Orientation>
       <X>-0.279848129</X>
       <Y>0.3647052</Y>
@@ -677,6 +677,11 @@ HackingDamage-False</Value>
     <dictionary />
   </PlayersDeadInCryopods>
   <Mods>
+    <ModItem FriendlyName="MultiplayerPredictionSwitcher (Interpolated serverside grid control)">
+      <Name>3032417765.sbm</Name>
+      <PublishedFileId>3032417765</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Build Vision 3.0">
       <Name>1697184408.sbm</Name>
       <PublishedFileId>1697184408</PublishedFileId>
@@ -777,37 +782,8 @@ HackingDamage-False</Value>
       <PublishedFileId>800500312</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Tank Tracks Builder">
-      <Name>3209005014.sbm</Name>
-      <PublishedFileId>3209005014</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Definition Extension API">
-      <Name>2756894170.sbm</Name>
-      <PublishedFileId>2756894170</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surface Mod Component">
-      <Name>2831593561.sbm</Name>
-      <PublishedFileId>2831593561</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Framework &amp; API">
-      <Name>3208995513.sbm</Name>
-      <PublishedFileId>3208995513</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Rich HUD Master">
-      <Name>1965654081.sbm</Name>
-      <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
   </Mods>
+  <CreativeTools />
   <Scenario Type="MyObjectBuilder_ScenarioDefinition" Subtype="EmptyWorld" />
   <RespawnCooldowns />
   <Identities>
@@ -1194,6 +1170,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>0</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1283,6 +1260,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>false</CreativeToolsEnabled>
           <RemoteAdminSettings>0</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1372,6 +1350,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>15</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1468,6 +1447,7 @@ HackingDamage-False</Value>
             <SlotsGamepad />
           </Toolbar>
           <EntityCameraData />
+          <BuildColorSlots />
           <CreativeToolsEnabled>true</CreativeToolsEnabled>
           <RemoteAdminSettings>15</RemoteAdminSettings>
           <PromoteLevel>Admin</PromoteLevel>
@@ -1560,6 +1540,8 @@ HackingDamage-False</Value>
       </item>
     </dictionary>
   </AllPlayersColors>
+  <ChatHistory />
+  <FactionChatHistory />
   <NonPlayerIdentities>
     <long>144115188075855896</long>
   </NonPlayerIdentities>
@@ -64359,4 +64341,7 @@ HackingDamage-False</Value>
     <string>Stone_01</string>
   </VicinityVoxelCache>
   <WorldId>dd5139a0-a776-4b1d-a075-50e7e316b75b</WorldId>
+  <RemoteAdminSettings>
+    <dictionary />
+  </RemoteAdminSettings>
 </MyObjectBuilder_Checkpoint>

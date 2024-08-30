@@ -154,6 +154,11 @@
     <TemporaryContainers>false</TemporaryContainers>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="MultiplayerPredictionSwitcher (Interpolated serverside grid control)">
+      <Name>3032417765.sbm</Name>
+      <PublishedFileId>3032417765</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Build Vision 3.0">
       <Name>1697184408.sbm</Name>
       <PublishedFileId>1697184408</PublishedFileId>
@@ -253,36 +258,6 @@
       <Name>800500312.sbm</Name>
       <PublishedFileId>800500312</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Builder">
-      <Name>3209005014.sbm</Name>
-      <PublishedFileId>3209005014</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Definition Extension API">
-      <Name>2756894170.sbm</Name>
-      <PublishedFileId>2756894170</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Aerodynamic Control Surface Mod Component">
-      <Name>2831593561.sbm</Name>
-      <PublishedFileId>2831593561</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Tank Tracks Framework &amp; API">
-      <Name>3208995513.sbm</Name>
-      <PublishedFileId>3208995513</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
-    </ModItem>
-    <ModItem FriendlyName="Rich HUD Master">
-      <Name>1965654081.sbm</Name>
-      <PublishedFileId>1965654081</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-      <IsDependency>true</IsDependency>
     </ModItem>
   </Mods>
   <SessionName>(Workshop) ModernWarfareWorldDev</SessionName>
