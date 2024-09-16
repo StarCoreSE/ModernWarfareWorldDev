@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-16"?>
+<SonicSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <minAirDensity>0.3</minAirDensity>
+  <minBlockCount>5</minBlockCount>
+  <boomDistanceMax>5000</boomDistanceMax>
+  <boomSpeed>320</boomSpeed>
+  <disablePlanetCheck>false</disablePlanetCheck>
+  <playSoundOnGrid>false</playSoundOnGrid>
+  <speedPercentAtMinDensity>0.25</speedPercentAtMinDensity>
+</SonicSettings>
